@@ -1,4 +1,4 @@
-fun main() {
+fun Permainan(){
     println("Siapa nama Kamu ?")
     val namaPemain = readln()
 
@@ -85,7 +85,7 @@ fun main() {
                 else{
                     println("Anda memilih tidak menggunakan potion")
                 }
-        }
+            }
 
             if (kesehatanPemain <= 0){
                 println("Anda Mati")
@@ -102,4 +102,9 @@ fun main() {
 
         }
     }
+}
+
+fun main() {
+    var permainan = Permainan()
+    permainan
 }
