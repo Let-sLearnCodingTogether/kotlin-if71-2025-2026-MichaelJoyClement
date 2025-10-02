@@ -1,3 +1,5 @@
+package Tugas
+
 fun main() {
     var totalBelanja = 0.0
     var jumlahItem1 = 3.0

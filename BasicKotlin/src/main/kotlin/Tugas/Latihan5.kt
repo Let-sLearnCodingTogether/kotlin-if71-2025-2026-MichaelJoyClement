@@ -1,3 +1,5 @@
+package Tugas
+
 fun main() {
     val integerArray : IntArray = intArrayOf(80, 90, 99, 40)
 

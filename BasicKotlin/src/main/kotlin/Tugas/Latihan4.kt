@@ -1,3 +1,5 @@
+package Tugas
+
 fun main() {
     var numberOfDays = arrayOf("Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu")
     println("==========================================")
