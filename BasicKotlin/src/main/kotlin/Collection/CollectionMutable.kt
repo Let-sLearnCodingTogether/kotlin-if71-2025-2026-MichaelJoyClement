@@ -1,18 +1,12 @@
 fun main() {
+    val mataKuliahPilihan: MutableList<String> = mutableListOf("Kotlin", "Logika Fuzzy")
     val mataKuliahMutable: MutableList<String> = mutableListOf("Kotlin", "PAB 2", "SOLID")
-    val mataKuliahImmutable: List<String> = listOf("Kotlin", "Kalkulus", "ASD")
 
-    println("List Mata kuliah:  $mataKuliahMutable")
-    println(mataKuliahImmutable.joinToString())
+    var mataKuliah = mataKuliahPilihan+mataKuliahMutable
+    println("Mata kuliah Pilihan: $mataKuliah")
 
-    val mataKuliahUppercase = mataKuliahImmutable.map {
-        it.uppercase()
-    }
-    println("List Mata kuliah Uppercase: $mataKuliahUppercase")
-
-    val matakuliahLebihDariNKarakter = mataKuliahImmutable.filter {
-        it.length>10
-    }
-
-    println("Mata Kuliah Filter (>10): $matakuliahLebihDariNKarakter")
+    mataKuliahPilihan.add("Web 2")
+    mataKuliahPilihan.add(1, "Web 1")
+    mataKuliahPilihan.removeAt(1)
+    println("Mata kuliah Pilihan: $mataKuliahPilihan")
 }
