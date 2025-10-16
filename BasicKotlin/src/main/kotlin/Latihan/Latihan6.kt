@@ -1,3 +1,5 @@
+package Latihan
+
 fun main() {
     val daftarJudulBuku: List<String> = listOf(
         "Laskar Pelangi",

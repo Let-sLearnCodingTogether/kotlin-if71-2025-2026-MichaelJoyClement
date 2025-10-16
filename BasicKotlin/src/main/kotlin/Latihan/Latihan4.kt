@@ -1,4 +1,4 @@
-package Tugas
+package Latihan
 
 fun main() {
     var numberOfDays = arrayOf("Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu")

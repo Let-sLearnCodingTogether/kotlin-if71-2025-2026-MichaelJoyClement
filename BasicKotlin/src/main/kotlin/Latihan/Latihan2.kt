@@ -1,4 +1,4 @@
-package Tugas
+package Latihan
 
 fun main() {
     val idProduct: ULong = 9876543210u

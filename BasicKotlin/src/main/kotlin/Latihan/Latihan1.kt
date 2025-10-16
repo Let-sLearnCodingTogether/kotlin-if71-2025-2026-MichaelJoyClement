@@ -1,4 +1,4 @@
-package Tugas
+package Latihan
 
 //Fungsi utama yang akan dijalankan pertama kali
 fun main(){

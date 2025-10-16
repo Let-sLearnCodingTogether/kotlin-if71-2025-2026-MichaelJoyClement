@@ -1,4 +1,4 @@
-package Tugas
+package Latihan
 
 fun main() {
     var totalBelanja = 0.0

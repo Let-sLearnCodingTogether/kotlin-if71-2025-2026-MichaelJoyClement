@@ -1,4 +1,4 @@
-package Tugas
+package Latihan
 
 fun main() {
     val integerArray : IntArray = intArrayOf(80, 90, 99, 40)

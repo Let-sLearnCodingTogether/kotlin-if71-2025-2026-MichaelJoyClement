@@ -5,7 +5,7 @@
 //    return this.lowercase()
 //}
 //
-//fun main() {
+//fun Lambda.Latihan.main() {
 //    println("hello world" to "upper")
 //    println("Hello World" to "lower")
 //}
