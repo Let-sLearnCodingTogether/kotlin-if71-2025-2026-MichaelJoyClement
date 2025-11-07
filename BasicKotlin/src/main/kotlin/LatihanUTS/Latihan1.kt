@@ -22,6 +22,4 @@ fun main() {
     )
 
     println("${barangTersedikit?.key} (${barangTersedikit?.value})")
-
-
 }
